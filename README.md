@@ -1,5 +1,5 @@
 # Cryptail
-**_Cryptail is a cryptocurrency tracking app delivering real-time price data for up to 5 cryptocurrencies via the Cryptocompare index. (2020)_**
+**Cryptail is a cryptocurrency tracking app delivering real-time price data for up to 5 cryptocurrencies via the Cryptocompare index. (2020)**
 
 Features:
 
