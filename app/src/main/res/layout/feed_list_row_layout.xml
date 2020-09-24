@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/relLayoutRowView"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:descendantFocusability="blocksDescendants"
+    android:orientation="horizontal"
+    android:paddingLeft="10dp"
+    android:paddingTop="7dp"
+    android:paddingRight="10dp"
+    android:paddingBottom="12dp">
+
+    <ImageView
+        android:id="@+id/hrArrowImageView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="21dp"
+        android:layout_marginEnd="103dp" />
+
+    <TextView
+        android:id="@+id/hrTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/dayPercentTextView"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="1dp"
+        android:layout_marginEnd="93dp"
+        android:text="1hr"
+        android:textSize="10sp"
+        android:textColor="#3A3A3A"/>
+
+    <TextView
+        android:id="@+id/hrNumTextView"
+        android:layout_width="60dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/hrTextView"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="1dp"
+        android:layout_marginEnd="77dp"
+        android:text="n"
+        android:textAlignment="center"
+        android:textSize="10sp"
+        android:textColor="#3A3A3A"/>
+
+    <TextView
+        android:id="@+id/hrPercentTextView"
+        android:layout_width="60dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="11dp"
+        android:layout_marginEnd="76dp"
+        android:text="%"
+        android:textAlignment="center"
+        android:textSize="10sp"
+        android:textColor="#3A3A3A"/>
+
+    <ImageView
+        android:id="@+id/cryptoLogoImageView"
+        android:layout_width="57dp"
+        android:layout_height="57dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="1dp"
+        android:layout_marginTop="5dp" />
+
+    <TextView
+        android:id="@+id/cryptoNameTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="5dp"
+        android:layout_toEndOf="@+id/cryptoLogoImageView"
+        android:text="Crypto Name"
+        android:textStyle="bold"
+        android:textColor="#3A3A3A"/>
+
+    <TextView
+        android:id="@+id/cryptoConversionTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/cryptoNameTextView"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="5dp"
+        android:layout_toEndOf="@+id/cryptoLogoImageView"
+        android:text="1 x (CS) = (CUR)"
+        android:textSize="11sp"
+        android:textColor="#3A3A3A"/>
+
+    <TextView
+        android:id="@+id/volTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/cryptoConversionTextView"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="1dp"
+        android:layout_toEndOf="@+id/cryptoLogoImageView"
+        android:text="Volume"
+        android:textSize="11sp"
+        android:textColor="#3A3A3A"/>
+
+    <TextView
+        android:id="@+id/dayTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/dayPercentTextView"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="1dp"
+        android:layout_marginEnd="17dp"
+        android:text="24hr"
+        android:textSize="10sp"
+        android:textColor="#3A3A3A"/>
+
+    <TextView
+        android:id="@+id/dayPercentTextView"
+        android:layout_width="62dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="11dp"
+        android:layout_marginEnd="0dp"
+        android:text="%"
+        android:textAlignment="center"
+        android:textSize="10sp"
+        android:textColor="#3A3A3A"/>
+
+    <TextView
+        android:id="@+id/dayNumTextView"
+        android:layout_width="62dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/dayTextView"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="1dp"
+        android:layout_marginEnd="1dp"
+        android:text="n"
+        android:textAlignment="center"
+        android:textSize="10sp"
+        android:textColor="#3A3A3A"/>
+
+    <ImageView
+        android:id="@+id/dayArrowImageView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="21dp"
+        android:layout_marginEnd="33dp" />
+
+</RelativeLayout>

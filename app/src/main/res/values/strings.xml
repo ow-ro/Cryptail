@@ -1,0 +1,38 @@
+<resources>
+    <string name="app_name">Cryptail</string>
+
+    <string name="settingsHelp">Need help? Long press on the Setting name for tips</string>
+    <string name="valCurToolTip">Cryptocurrency values will display in this world currency.</string>
+    <string name="refreshToolTip">Set the time interval for which the crypto data will auto refresh, if the app is running and has internet.</string>
+    <string name="notificationToolTip">Shows an ongoing notification on your device which will remain whilst the app is running.</string>
+    <string name="pipToolTip">Enables PIP mode on the Feed - press the Home button when on Feed to see it in action.</string>
+    <string name="aboutDescription">Cryptail is a cryptocurrency monitoring app which pulls price and volume data for up to 5 user selected cryptocurrencies.</string>
+    <string name="iconDescription">Cryptocurrency icons from CryptoLogos.cc</string>
+    <string name="appIconDescription">In-app icons from Freepik</string>
+    <string name="apiDescription">Cryptail uses the CryptoCompare API</string>
+    <string name="feedTimestamp">Last Updated: </string>
+
+
+    <string-array name="currencySymbols">
+        <item>$ USD</item>
+        <item>£ GBP</item>
+        <item>€ EUR</item>
+        <item>$ CAD</item>
+        <item>₺ TRY</item>
+        <item>R ZAR</item>
+        <item>¥ CNY</item>
+        <item>$ MXN</item>
+        <item>¥ JPY</item>
+    </string-array>
+    
+    <string-array name="refreshTimeIntervals">
+        <item>2 mins</item>
+        <item>5 mins</item>
+        <item>10 mins</item>
+        <item>30 mins</item>
+        <item>45 mins</item>
+        <item>1 hour</item>
+        <item>2 hours</item>
+    </string-array>
+    
+</resources>
